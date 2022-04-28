@@ -1,4 +1,4 @@
-import { render, screen } from "../../../test-utils/testing-ibrary-utils";
+import { render, screen } from "../../../test-utils/testing-library-utils";
 import { OrderDetailsProvider } from "../../../contexts/OrderDetails";
 import Options from "../Options";
 

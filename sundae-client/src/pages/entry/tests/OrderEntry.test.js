@@ -2,7 +2,7 @@ import {
   render,
   screen,
   waitFor,
-} from "../../../test-utils/testing-ibrary-utils";
+} from "../../../test-utils/testing-library-utils";
 import OrderEntry from "../OrderEntry";
 import { rest } from "msw";
 import { server } from "../../../mocks/server";
