@@ -1,8 +1,8 @@
 import React from "react";
 import SummaryForm from "./SummaryForm";
-import { useOrderDetails } from "../../contexts/OrderDetails";
+import {useOrderDetails} from "../../contexts/OrderDetails";
 
-export default function OrderSummary({ setOrderPhase }) {
+export default function OrderSummary({setOrderPhase}) {
   const [orderDetails] = useOrderDetails();
 
   const scoopArray = Array.from(orderDetails.scoops.entries());

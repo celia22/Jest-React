@@ -16,6 +16,6 @@ test('error response from server for submitting order', async () => {
 
   const alert = await screen.findByRole('alert');
   expect(alert).toHaveTextContent(
-    'An unexpected error occurred.Please try again later.', { exact: false }
+    'An unexpected error occurred. Please try again later.'
   );
 });
